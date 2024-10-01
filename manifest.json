@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "secure twitter message",
+    "version": "1.0",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "storage",
+      "https://x.com/i/api/1.1/dm/new2.json",
+      "https://x.com/i/api/1.1/dm/user_updates.json"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
