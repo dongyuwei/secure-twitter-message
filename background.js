@@ -1,4 +1,5 @@
-const CryptoJS = require('crypto-js');
+// const CryptoJS = require('crypto-js');
+// crypto-js.4.2.0.min.js is downloaded from https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js
 
 const encryptMessage = (message, secretKey) => {
     const encrypted = CryptoJS.AES.encrypt(message, secretKey).toString();

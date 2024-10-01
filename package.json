@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    
+    "build": "cat crypto-js.4.2.0.min.js background.js > service_worker.js"
   },
   "keywords": [],
   "author": "Dong Yuwei",

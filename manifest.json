@@ -10,6 +10,6 @@
       "https://x.com/i/api/1.1/dm/user_updates.json"
     ],
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "service_worker.js"
     }
   }
