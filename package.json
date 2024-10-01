@@ -10,7 +10,6 @@
   "author": "Dong Yuwei",
   "license": "",
   "dependencies": {
-    "crypto-js": "^4.2.0",
-    "libsodium-wrappers": "^0.7.15"
+    "crypto-js": "^4.2.0"
   }
 }
