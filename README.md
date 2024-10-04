@@ -7,5 +7,8 @@ The **crypto-js.4.2.0.min.js** was downloaded from https://cdnjs.cloudflare.com/
 
 
 # Usage:
-1. Click the addon icon
-2. Set secret key(sender and receiver should use the same secret key!).
+1. Clone or download this project
+2. chrome://extensions/ -> `load unpacked`
+3. Click the addon icon
+4. Set secret key(sender and receiver should use the same secret key!).
+5. Reload Twitter web page and enjoy end-to-end encrypted private message chat.
