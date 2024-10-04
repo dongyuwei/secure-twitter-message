@@ -1,16 +1,20 @@
 [
-    {
-      "id": 1,
-      "priority": 1,
-      "action": {
-        "type": "modifyHeaders",
-        "requestHeaders": [
-          { "header": "Content-Type", "operation": "set", "value": "application/json" }
-        ]
-      },
-      "condition": {
-        "urlFilter": "https://x.com/i/api/1.1/dm/new2.json",
-        "resourceTypes": ["xmlhttprequest"]
-      }
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "allow" },
+    "condition": {
+      "urlFilter": "https://x.com/i/api/1.1/dm/new2.json",
+      "resourceTypes": ["xmlhttprequest"]
     }
-  ]
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "allow" },
+    "condition": {
+      "urlFilter": "https://x.com/i/api/1.1/dm/user_updates.json",
+      "resourceTypes": ["xmlhttprequest"]
+    }
+  }
+]

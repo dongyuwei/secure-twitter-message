@@ -3,25 +3,27 @@
   "name": "Secure Twitter Message",
   "version": "1.0",
   "permissions": [
-    "storage"
+    "storage",
+    "scripting"
   ],
   "host_permissions": [
-    "https://*.x.com/*"
+    "https://x.com/*"
   ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
     {
-      "matches": ["https://*.x.com/*"],
-      "js": ["crypto-js.4.2.0.min.js", "content-script.js"],
-      "run_at": "document_start"
+      "matches": ["https://x.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
     }
   ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
   "web_accessible_resources": [
     {
-      "resources": ["crypto-js.4.2.0.min.js"],
-      "matches": ["https://*.x.com/*"]
+      "resources": ["crypto-js.4.2.0.min.js", "inject.js"],
+      "matches": ["https://*/*"]
     }
   ]
 }
