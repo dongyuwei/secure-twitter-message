@@ -60,5 +60,4 @@ function decryptDisplayedMessages() {
     _decryptDisplayedMessages(messageElements2);
 }
 
-// Run decryption periodically and on DOM changes
 setInterval(decryptDisplayedMessages, 1000);

@@ -1,5 +1,5 @@
 document.getElementById('saveKeyButton').addEventListener('click', function () {
-    const secretKey = document.getElementById('secretKeyInput').value;
+    const secretKey = document.getElementById('secretKeyInput').value.trim();
 
     if (secretKey) {
         // Store the secret key in Chrome storage
