@@ -24,7 +24,7 @@
   "web_accessible_resources": [
     {
       "resources": ["crypto-js.4.2.0.min.js", "inject.js"],
-      "matches": ["https://*/*"]
+      "matches": ["https://x.com/*", "https://twitter.com/*"]
     }
   ]
 }
