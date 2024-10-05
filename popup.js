@@ -4,7 +4,6 @@ document.getElementById('saveKeyButton').addEventListener('click', function () {
     if (secretKey) {
         // Store the secret key in Chrome storage
         chrome.storage.local.set({'twitterMessageSecretKey': secretKey}, () => {
-            console.log('Secret key saved:', secretKey);
             alert('Secret key saved successfully!');
         });
     } else {
