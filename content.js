@@ -7,6 +7,7 @@ function injectScript(file) {
 
 chrome.storage.local.get(['twitterMessageSecretKey'], (result) => {
     const secretKey = result.twitterMessageSecretKey;
+    console.log('secretKey', secretKey)
     localStorage.setItem('twitterSecretMsgKey', secretKey)
 
     injectScript("crypto-js.4.2.0.min.js");

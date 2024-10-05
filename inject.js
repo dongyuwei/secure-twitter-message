@@ -60,4 +60,4 @@ function decryptDisplayedMessages() {
     _decryptDisplayedMessages(messageElements2);
 }
 
-setInterval(decryptDisplayedMessages, 1000);
+setInterval(decryptDisplayedMessages, 500);
