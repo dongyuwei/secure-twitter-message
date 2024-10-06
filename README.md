@@ -7,7 +7,8 @@ A Chrome Addon to add end-to-end encryption(use AES cipher algorithm) for Twitte
 3. Set secret key(sender and receiver should use the same secret key!).
 4. Reload Twitter web page and enjoy end-to-end encrypted private message chat.
 
-<img width="209" alt="image" src="https://github.com/user-attachments/assets/f515e56f-7c81-41f1-ac2b-44980be7458c">
+<img width="186" alt="image" src="https://github.com/user-attachments/assets/7acd70f7-cb5b-4941-9896-c68e79a271f0">
+
 
 # Note
 The **crypto-js.4.2.0.min.js** was downloaded from https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js
