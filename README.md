@@ -1,5 +1,5 @@
 # secure-twitter-message
-A chrome Addon to add end-to-end encryption(use AES cipher algorithm) for Twitter private message.
+A Chrome Addon to add end-to-end encryption(use AES cipher algorithm) for Twitter private message.
 
 The **crypto-js.4.2.0.min.js** was downloaded from https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js
 
